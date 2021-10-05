@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Footer = () => {
-  return <div>this is footer</div>;
+  return (
+    <footer className="react-pro bg-dark text-white mt-3 py-3 text-center">
+      copyright &copy; all rights reserved by React Pro
+    </footer>
+  );
 };
 
 export default Footer;
