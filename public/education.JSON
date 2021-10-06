@@ -1,0 +1,44 @@
+[
+  {
+    "id": "8564381966",
+    "name": "one on one mentoring.",
+    "desc": "we provide you the best mentor around this field. He/She will guide and help you to achieve success.",
+    "img": "https://unsplash.com/photos/8lnbXtxFGZw"
+  },
+  {
+    "id": "0882599895",
+    "name": "project based learning.",
+    "desc": "we provide industry level project which will be done by you when you learning some concept of react.",
+    "img": "https://unsplash.com/photos/5aiRb5f464A"
+  },
+  {
+    "id": "24/7 support",
+    "name": "we offer 24/7 support just for dedicated students. If you give your 100%, we will surely get 100% support from our site also.",
+    "desc": "Mishaw",
+    "img": "http://dummyimage.com/246x100.png/dddddd/000000"
+  },
+  {
+    "id": "1750703726",
+    "name": "weekly discussion",
+    "desc": "we discuss weekly with our students and  show them their weak point and how to recover them.",
+    "img": "http://dummyimage.com/126x100.png/ff4444/ffffff"
+  },
+  {
+    "id": "3343736112",
+    "name": "moneyback guarantee",
+    "desc": "we offer moneyback gurantee if you are not satisfied with our services. you will get all your money back according to our refund policy.",
+    "img": "http://dummyimage.com/158x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": "0553327992",
+    "name": "special care",
+    "desc": "we provide special card who are not able to continue with us for not understanding the concept welly",
+    "img": "http://dummyimage.com/112x100.png/dddddd/000000"
+  },
+  {
+    "id": "9973782488",
+    "name": "Job Guarantte.",
+    "desc": "We are giving you a job guarantee if you finish the course with our rules and got marks minimum 80% in all project based assignments.",
+    "img": "http://dummyimage.com/119x100.png/5fa2dd/ffffff"
+  }
+]
