@@ -8,11 +8,12 @@ const Header = () => {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand>
-            <span style={{ color: 'cyan' }}>React Pro</span>
+            <span style={{ color: 'cyan' }}>UNIEDUPRO</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
+              {/* home */}
               <NavLink
                 exact
                 to="/"
@@ -21,6 +22,8 @@ const Header = () => {
               >
                 Home
               </NavLink>
+
+              {/* services */}
               <NavLink
                 exact
                 to="/services"
@@ -29,14 +32,8 @@ const Header = () => {
               >
                 Services
               </NavLink>
-              <NavLink
-                exact
-                to="/pricing"
-                activeStyle={{ backgroundColor: 'cadetblue' }}
-                className="link mx-3 p-2"
-              >
-                Pricing
-              </NavLink>
+
+              {/* about */}
               <NavLink
                 exact
                 to="/about"
@@ -44,6 +41,16 @@ const Header = () => {
                 className="link mx-3 p-2"
               >
                 About
+              </NavLink>
+
+              {/* contact */}
+              <NavLink
+                exact
+                to="/contact"
+                activeStyle={{ backgroundColor: 'cadetblue' }}
+                className="link mx-3 p-2"
+              >
+                Contact
               </NavLink>
             </Nav>
           </Navbar.Collapse>
