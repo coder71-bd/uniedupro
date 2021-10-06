@@ -12,7 +12,10 @@ const App = () => {
   return (
     <div className="overflow-hidden">
       <Router>
+        {/* header */}
         <Header />
+
+        {/* route paths */}
         <Switch>
           {/* services page */}
           <Route exact path="/services">
@@ -39,6 +42,8 @@ const App = () => {
             <NotFound />
           </Route>
         </Switch>
+
+        {/* footer */}
         <Footer />
       </Router>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import university from '../../images/university.jpg';
+
 const About = () => {
   return (
     <Container
@@ -8,6 +9,7 @@ const About = () => {
       style={{ minHeight: 'calc(100vh - 200px)' }}
     >
       <Row className="justify-content-center align-items-center">
+        {/* about info */}
         <Col lg={6}>
           <h3 className="pe-2 text-warning mb-3">About UNIEDUPRO</h3>
           <p className="font-monospace">
@@ -23,6 +25,8 @@ const About = () => {
             regret it.
           </p>
         </Col>
+
+        {/* about image */}
         <Col lg={6} style={{ maxWidth: 500 }}>
           <img
             className="img-fluid mx-auto"

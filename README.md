@@ -1,9 +1,9 @@
-<h1 align="center">React Pro</h1>
+<h1 align="center">UNIEDUPRO</h1>
 
 <div align="center">
   <h3>
   <!--add netlify link here-->
-    <a href="https://reactpro-2021.netlify.app/">
+    <a href="https://uniedupro.netlify.app/">
       Live Demo
     </a>
   </h3>
@@ -20,13 +20,13 @@
 ### Built With
 
 - React
-- React-router
+- React-router-dom
 - React-bootstrap
 - Bootstrap
 
 ## Features
 
-An educational app. It contains four page.
+An educational app. It contains four page. They are Home, services, about and contact page. You can navigate through a page and explore some info about that page.
 
 ## Contact
 

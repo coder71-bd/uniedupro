@@ -7,6 +7,7 @@ const Contact = () => {
       style={{ minHeight: 'calc(100vh - 200px)' }}
     >
       <Row>
+        {/* contact form */}
         <Col md={6} className="mb-3">
           <h3 className="fs-3 mb-3">Contact Form</h3>
           <Form className="border border-2 rounded-3 p-3 shadow">
@@ -25,6 +26,8 @@ const Contact = () => {
             </div>
           </Form>
         </Col>
+
+        {/* contact info */}
         <Col md={6}>
           <h3 className="fs-3 mb-3">Contact Info</h3>
           <div className="border border-2 rounded-3 p-3 shadow">
