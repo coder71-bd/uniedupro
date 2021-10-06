@@ -1,7 +1,6 @@
-import React from "react";
-
-import { Button } from "react-bootstrap";
-import overview from "../../images/overview.jpg";
+import React from 'react';
+import { Button } from 'react-bootstrap';
+import overview from '../../images/overview.jpg';
 
 const Intro = () => {
   return (
@@ -9,8 +8,8 @@ const Intro = () => {
       className="d-flex flex-column justify-content-center align-items-center text-white vh-100"
       style={{
         background: `url(${overview})`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat"
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
       }}
     >
       {/* site intro info */}
