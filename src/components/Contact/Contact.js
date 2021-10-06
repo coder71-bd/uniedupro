@@ -2,7 +2,10 @@ import React from 'react';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 const Contact = () => {
   return (
-    <Container className="my-3">
+    <Container
+      className=" d-flex justify-content-center align-items-center my-3"
+      style={{ minHeight: 'calc(100vh - 200px)' }}
+    >
       <Row>
         <Col md={6} className="mb-3">
           <h3 className="fs-3 mb-3">Contact Form</h3>

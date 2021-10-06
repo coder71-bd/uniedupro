@@ -10,7 +10,7 @@ import NotFound from './components/NotFound/NotFound';
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Router>
         <Header />
         <Switch>

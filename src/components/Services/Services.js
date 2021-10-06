@@ -28,7 +28,7 @@ const Services = () => {
       name: 'AI For Everyone',
       price: 2400,
       year: 4,
-      desc: 'AI is not only for engineers. If you want your organization to become better at using AI, this is the course to tell everyone--especially your non-technical colleagues--to take. ',
+      desc: 'AI is not only for engineers. If you want your organization to become better at using AI, this is the course.',
 
       isAvailable: true,
     },
